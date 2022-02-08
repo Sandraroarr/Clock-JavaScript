@@ -4,7 +4,7 @@
 }
 
 body {
-  background: linear-gradient(to right, hsl(200,100%,50%),hsl(175,100%,50%));;
+  background: linear-gradient(to right, rgb(0, 255, 76),rgb(0, 255, 98));;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,8 +13,8 @@ body {
 }
 
 .clock {
-  width: 300px;
-  height: 300px;
+  width: 500px;
+  height: 500px;
   background-color: rgba(255,255,255,.8);
   border-radius: 50%;
   border: 2px solid black;
@@ -28,7 +28,7 @@ body {
   height: 100%;
   text-align: center;
   transform: rotate(var(--rotation));
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .clock .number1 {--rotation: 30deg;}
